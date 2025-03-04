@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding-top: 62px; /* Sesuaikan dengan tinggi navbar */
+  @apply bg-white dark:bg-gray-900;
+  @apply text-black dark:text-white;
+}
